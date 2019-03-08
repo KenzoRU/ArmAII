@@ -36,3 +36,10 @@ switch (playerSide) do {
 
 resistance и east можно менять между собой или полностью ,к примеру east на west.
 
+Где искать текстуры : 
+1. Заходим в \steamapps\common\Arma 2 Operation Arrowhead\AddOns
+2. Ищем файл ui
+3. Открываем с помощью PBO manager.
+4. Ищем файлы с названием gps
+5. Экспериментируем подставляя названия в ["ca\ui\data\ui_gps_ca.paa", -0.05, 0.16] call BIS_fnc_customGPS;
+Пример : ["ca\ui\data\Тут название - gpskrasiviy_ca.paa", -0.05, 0.16] call BIS_fnc_customGPS;
